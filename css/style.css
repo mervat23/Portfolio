@@ -1,8 +1,11 @@
 html {
     direction: rtl;
     scroll-behavior: smooth;
+    overflow-x: hidden;
+
 
 }
+
 
 
 :root {
