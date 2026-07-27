@@ -1,12 +1,11 @@
 html {
     direction: rtl;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    /* overflow-x: hidden;
+    max-width: 100%; */
 
 
 }
-
-
 
 :root {
     --primary-color: #8b5cf6;
@@ -206,6 +205,10 @@ body.light .education-text {
 .image-box {
     width: 520px;
     height: 520px;
+       position: relative;
+    overflow: hidden;
+        /* max-width: 100%; */
+
 
 }
 
@@ -1135,13 +1138,13 @@ body.light .switch-circle {
 
 .next {
 
-    right: -60px;
+    right: 20px;
 
 
 }
 
 .prev {
-    left: -60px;
+    left: 20px;
 }
 
 .next:hover,
@@ -1210,7 +1213,7 @@ body.light .switch-circle {
 
     pointer-events: none;
 }
-
+/*  */
 .testimonial-card1 p {
     color: var(--white-color);
 }
@@ -1607,12 +1610,23 @@ body.light .switch-circle {
         direction: rtl;
     }
 
-    .next {
+    /* .next {
         right: -70px;
     }
 
     .prev {
         left: -70px;
-    }
+    } */
 
 }
+
+/* *{
+    outline:1px solid red;
+} */
+
+body * {
+    outline: 1px solid red;
+}
+
+
+
