@@ -1,10 +1,11 @@
 html {
     direction: rtl;
     scroll-behavior: smooth;
-    /* overflow-x: hidden;
-    max-width: 100%; */
+}
 
-
+html,
+body {
+    overflow-x: clip;
 }
 
 :root {
@@ -205,9 +206,9 @@ body.light .education-text {
 .image-box {
     width: 520px;
     height: 520px;
-       position: relative;
+    position: relative;
     overflow: hidden;
-        /* max-width: 100%; */
+    /* max-width: 100%; */
 
 
 }
@@ -1213,6 +1214,7 @@ body.light .switch-circle {
 
     pointer-events: none;
 }
+
 /*  */
 .testimonial-card1 p {
     color: var(--white-color);
@@ -1619,14 +1621,3 @@ body.light .switch-circle {
     } */
 
 }
-
-/* *{
-    outline:1px solid red;
-} */
-
-body * {
-    outline: 1px solid red;
-}
-
-
-
